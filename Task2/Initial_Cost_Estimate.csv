@@ -1,0 +1,15 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Initial_Cost_Estimate,US East (N. Virginia),,Amazon Route 53,0,237.15,2845.80,USD,"Hosted Zones (1), Basic Checks Within AWS (1), Number of Elastic Network Interfaces (2)"
+Initial_Cost_Estimate,US East (N. Virginia),,Network Load Balancer,0,147.83,1773.96,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (30 GB per hour), Average number of new TCP connections (100 per second), Average TCP connection duration (3 minutes)"
+Initial_Cost_Estimate,US East (N. Virginia),,Application Load Balancer,0,191.63,2299.56,USD,Number of Application Load Balancers (1)
+Initial_Cost_Estimate,US East (N. Virginia),,Amazon EC2,0,4792.32,57507.84,USD,"Operating system (Linux), Quantity (4), Pricing strategy (On-Demand Instances), Storage amount (0.75 TB), Instance type (m5.8xlarge)"
+Initial_Cost_Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,4465.6,53587.20,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Quantity (2), Instance type (db.m5.4xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand 1yr No Upfront)"
+Initial_Cost_Estimate,US East (N. Virginia),,S3 Standard,0,2.39,28.68,USD,S3 Standard storage (100 GB per month)
+Initial_Cost_Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month)"
+Initial_Cost_Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,110.7,1328.40,USD,Number of NAT Gateways (2)
+Initial_Cost_Estimate,US East (N. Virginia),,Amazon CloudFront,0,36.5,438.00,USD,"Data transfer out to internet (50 GB per month), Data transfer out to origin (50 GB per month), Number of requests (HTTPS) (5000000 per month), Data transfer out to internet (50 GB per month), Data transfer out to origin (50 GB per month), Number of requests (HTTPS) (5000000 per month), Number of requests (HTTPS) (5000000 per month), Data transfer out to internet (50 GB per month), Data transfer out to origin (50 GB per month)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
